@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("To end input of numbers input 'END'");
+        System.out.println("To end input of numbers input 'END' \nEach number requires a new row");
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
         int quant;
